@@ -429,13 +429,13 @@ main {
 .contact-item {
   min-width: 100%;
   display: flex;
-  align-items: center;
-  gap: 16px;
+  align-items: left;
+  gap: 6px;
 }
 
 .contact-info {
   max-width: calc(100% - 46px);
-  width: calc(100% - 46px);
+  width: calc(100% - 36px);
 }
 
 .contact-title {
@@ -526,6 +526,7 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  text-align: justify;
 }
 
 .about-text p {
@@ -588,7 +589,7 @@ main {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 /**
@@ -1395,10 +1396,10 @@ textarea.form-input::-webkit-resizer {
   }
 
   .icon-box {
-    width: 48px;
-    height: 48px;
+    width: 30px;
+    height: 30px;
     border-radius: 12px;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   /**
@@ -1428,12 +1429,12 @@ textarea.form-input::-webkit-resizer {
   }
 
   .avatar-box {
-    border-radius: 30px;
+    border-radius: 50%;
   }
 
   .avatar-box img {
     width: 120px;
-    border-radius: 20%;
+    border-radius: 50%;
   }
 
   .info-content .name {
@@ -2025,5 +2026,6 @@ textarea.form-input::-webkit-resizer {
 
   .timeline-text {
     max-width: 700px;
+    text-align: justify;
   }
 }
