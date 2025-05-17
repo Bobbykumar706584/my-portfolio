@@ -17,6 +17,15 @@
 
   /* gradient */
 
+  .demo {
+    display: flex;
+    gap: 4em;
+  }
+  .demo a {
+    color: white;
+    font-weight: 600;
+  }
+
   --bg-gradient-onyx: linear-gradient(
     to bottom right,
     hsl(240, 1%, 25%) 3%,
